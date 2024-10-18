@@ -9,7 +9,7 @@
         margin: 0 auto;
     }
 
-.header__nav{
+.header__nav  {
         margin: 0px 0px 0px 0px;
     }
 
@@ -33,7 +33,7 @@
         text-underline-offset: 4px;
     }
 
-._link_margin{
+._link_margin {
         margin: 0px 0px 0px -4px;
     }
     
@@ -70,7 +70,7 @@
         word-spacing: 0.5px;
     }
  
-.up__section{
+.up__section {
     background: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
@@ -81,16 +81,16 @@
     margin: 1px 0px 179px 2px;
 }
 
-.up__section p{
+.up__section p {
     display: inline;
 }
 
-.bg_black{
+.bg_black {
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
 }
 
-.main_word{
+.main_word {
     display: flex;
     font-weight: 700;
     width: 1000px;
@@ -102,22 +102,22 @@
     padding-bottom: 15px;
 }
 
-.left_word{
+.left_word {
     display: inline;
     margin-top: 10px;
 }
 
-.center_word{
+.center_word {
     display: inline;
     margin: 137px 0px 0px -90px;
 }
 
-.right_word{
+.right_word {
 display: inline;
 margin: 257px 0px 0px -131px;
 }
 
-.second_word{
+.second_word {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,20 +129,20 @@ margin: 257px 0px 0px -131px;
     word-spacing: 20px;
 }
 
-.start__word-spacing{
+.start__word-spacing {
     word-spacing: 17px;
 }
 
-.center__word-spacing{
+.center__word-spacing {
     word-spacing: 18px;
 }
 
-.end__word-spacing{
+.end__word-spacing {
     word-spacing: 17px;
     margin-left: -20px;
 }
 
-.up__section a{
+.up__section a {
     font-weight: 500;
     font-size: 22px;
     text-align: center;
@@ -156,13 +156,13 @@ margin: 257px 0px 0px -131px;
     word-spacing: 0px;
 }
 
-.lots h2{
+.lots h2 {
     font-weight: 700;
     font-size: 40px;
     margin-left: 67px
 }
 
-.lot{
+.lot {
     display: grid;
     grid-template-columns: auto auto auto;
     color: white;
@@ -172,7 +172,7 @@ margin: 257px 0px 0px -131px;
     margin: 27px 8px 0px 27px;
 }
 
-.lot_thomas{
+.lot_thomas {
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,7 +187,7 @@ margin: 257px 0px 0px -131px;
     margin-right: 10%;
 }
 
-.lot_jons{
+.lot_jons {
     background-image: url(../images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,7 +200,7 @@ margin: 257px 0px 0px -131px;
     min-height: 563px;
 }
 
-.lot__header__thomas{
+.lot__header__thomas {
     font-weight: 700;
     font-size: 22px;
     text-transform: uppercase;
@@ -208,7 +208,7 @@ margin: 257px 0px 0px -131px;
     margin: 51px 0px 0px 39px;
 }
 
-.lot__footer__thomas{
+.lot__footer__thomas {
     width: 254px;
  margin: 242px 0px 0px 39px;
  font-weight: 400;
@@ -216,7 +216,7 @@ margin: 257px 0px 0px -131px;
  line-height: 24px;
 }
 
-.lot__header__jons{
+.lot__header__jons {
     width: 254px;
     font-weight: 700;
     font-size: 22px;
@@ -225,7 +225,7 @@ margin: 257px 0px 0px -131px;
     margin: 3px 0px 0px 40px;
 }
 
-.lot__footer__jons{
+.lot__footer__jons {
     width: 254px;
  margin: -97px 0px 0px 40px;
  font-weight: 400;
@@ -233,7 +233,7 @@ margin: 257px 0px 0px -131px;
  line-height: 24px;
 }
 
-.lot_kandin{
+.lot_kandin {
     background-image: url(../images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -246,7 +246,7 @@ margin: 257px 0px 0px -131px;
     min-height: 563px;
 }
 
-.lot__header__kandin{
+.lot__header__kandin {
     width: 254px;
     font-weight: 700;
     font-size: 22px;
@@ -255,7 +255,7 @@ margin: 257px 0px 0px -131px;
     margin: 3px 0px 0px 41px;
 }
 
-.lot__footer__kandin{
+.lot__footer__kandin {
     width: 254px;
  margin: 0px 0px 0px 41px;
  font-weight: 400;
@@ -263,7 +263,7 @@ margin: 257px 0px 0px -131px;
  line-height: 24px;
 }
 
-.lots a{
+.lots a {
     display: block;
     margin: 30px 0px 0px 67px;
     text-decoration: underline solid black 0.5px;
@@ -272,14 +272,14 @@ margin: 257px 0px 0px -131px;
     font-size: 20px;
 }
 
-.about{
+.about {
     display: grid;
     grid-template-columns: 291px 1fr;
     grid-template-rows: 291px 1fr;
     margin: 182px 0px 0px 74px;
 }
 
-.about img{
+.about img {
     display: block;
     width: 149px;
     height: 114px;
@@ -295,7 +295,7 @@ margin: 257px 0px 0px -131px;
     margin: 0px 0px 0px -1px;
 }
 
-.about h2{
+.about h2 {
     grid-column: 2 / -2;
   grid-row: 1 / -1;
   font-weight: 700;
@@ -304,7 +304,7 @@ margin: 257px 0px 0px -131px;
   text-transform: uppercase;
 }
 
-.about p{
+.about p {
     grid-column: 2 / -2;
   grid-row: 2 / -1;
   margin: -43px 0px 0px 20px;
@@ -314,11 +314,11 @@ margin: 257px 0px 0px -131px;
   word-spacing: 1px;
 }
 
-footer{
+footer {
     margin-top: 205px;
 }
 
-.footer__adress{
+.footer__adress {
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -331,22 +331,22 @@ footer{
         margin: 0px 0px 0px 53px;
 }
 
-.footer__adress p{
+.footer__adress p {
 word-spacing: 0.2px;
 }
 
-.footer__menu{
+.footer__menu {
     margin: -97px 0px 0px 6px;
 }
 
-.footer__menu li{
+.footer__menu li {
     justify-content: center;
     font-weight: 400;
     font-size: 18px;
 list-style: none;
 }
 
-.footer__menu ul{
+.footer__menu ul {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -354,13 +354,13 @@ list-style: none;
     
 }
 
-footer a img{
+footer a img {
     width: 48px;
     height: 48px;
     margin-right: 48px;
 }
 
-.network{
+.network {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
