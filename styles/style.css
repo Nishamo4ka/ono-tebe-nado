@@ -1,4 +1,6 @@
 /* место для вашего кода */
+
+/* Блок  HEADER */
 .header {
         display: flex;
         flex-wrap: wrap;
@@ -70,6 +72,8 @@
         word-spacing: 0.5px;
     }
  
+ /* Блок MAIN */
+ /* Блок UP__SECTION */
 .up__section {
     background: url(../images/cover.jpg);
     background-size: cover;
@@ -156,6 +160,7 @@ margin: 257px 0px 0px -131px;
     word-spacing: 0px;
 }
 
+/* Блок LOTS */
 .lots h2 {
     font-weight: 700;
     font-size: 40px;
@@ -272,6 +277,7 @@ margin: 257px 0px 0px -131px;
     font-size: 20px;
 }
 
+/* Блок ABOUT */
 .about {
     display: grid;
     grid-template-columns: 291px 1fr;
@@ -314,6 +320,7 @@ margin: 257px 0px 0px -131px;
   word-spacing: 1px;
 }
 
+/* Блок FOOTER */
 footer {
     margin-top: 205px;
 }
