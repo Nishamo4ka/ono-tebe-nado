@@ -313,15 +313,18 @@ footer {
         letter-spacing: 0;
         color: #000;
         max-width: 290px;
-        text-decoration: underline solid black 0.5px;
-        text-underline-offset: 4px;
+        
         margin: 0px 0px 0px 53px;
 }
 .address__number {
     word-spacing: 1px;
+    text-decoration: underline solid black 0.5px;
+    text-underline-offset: 4px;
 }
 .address__mail {
     letter-spacing: 0.2px;
+    text-decoration: underline solid black 0.5px;
+    text-underline-offset: 4px;
 }
 .footer__adress p {
 word-spacing: 0.2px;
@@ -358,4 +361,6 @@ footer a img {
     flex-direction: row;
     margin: -63px 0px 0px 812px;
 }
-
+.footer__adress p {
+    text-decoration: none;
+}
