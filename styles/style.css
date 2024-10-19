@@ -41,7 +41,7 @@
         letter-spacing: 0em;
         text-decoration: none;
     }
-.list_type__none{
+.list_type__none {
         list-style-type: none;
 }
 .header__logo {
@@ -75,7 +75,7 @@
     text-decoration: none;
 }
 
-main{
+main {
     margin-bottom: 180px;
 }
 .up__section {
@@ -304,9 +304,8 @@ span {
   line-height: 24px;
   word-spacing: 1px;
 }
-
-.footer__adress {        
-        margin: 0px 0px 0px 53px;
+.footer__adress {  
+    margin: 0px 0px 0px 53px;
 }
 .address__number {
     word-spacing: 1px;
@@ -320,6 +319,7 @@ span {
 }
 .footer__adress p {
 word-spacing: 0.2px;
+text-decoration: none;
 }
 
 .footer__menu {
@@ -352,7 +352,4 @@ footer a img {
     flex-wrap: nowrap;
     flex-direction: row;
     margin: -63px 0px 0px 812px;
-}
-.footer__adress p {
-    text-decoration: none;
 }
