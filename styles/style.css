@@ -304,22 +304,25 @@ span {
   line-height: 24px;
   word-spacing: 1px;
 }
+
 .footer__adress {  
     margin: 0px 0px 0px 53px;
 }
+
 .address__number {
     word-spacing: 1px;
     text-decoration: underline solid black 0.5px;
     text-underline-offset: 4px;
 }
+
 .address__mail {
     letter-spacing: 0.2px;
     text-decoration: underline solid black 0.5px;
     text-underline-offset: 4px;
 }
 .footer__adress p {
-word-spacing: 0.2px;
-text-decoration: none;
+    word-spacing: 0.2px;
+    text-decoration: none;
 }
 
 .footer__menu {
@@ -330,7 +333,7 @@ text-decoration: none;
     justify-content: center;
     font-weight: 400;
     font-size: 18px;
-list-style: none;
+    list-style: none;
 }
 
 .footer__menu ul {
