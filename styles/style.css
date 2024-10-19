@@ -38,13 +38,14 @@
     }
     
 .activ__link {
-        list-style-type: none;
         letter-spacing: 0em;
         text-decoration: none;
     }
-    
+.list_type__none{
+        list-style-type: none;
+}
 .header__logo {
-    margin-right: 150px;
+        margin-right: 150px;
     }
     
 .header__logo__img {
@@ -60,11 +61,11 @@
         line-height: 135%;
         letter-spacing: 0;
         color: #000;
-        margin: 3px 36px 2px 0px;
         max-width: 290px;
-        
     }
-    
+.adress_header {
+    margin: 3px 36px 2px 0px;
+}
 .address a {
         word-spacing: 0.5px;
         text-decoration: underline solid black 0.5px;
@@ -72,6 +73,10 @@
     }
 .address p {
     text-decoration: none;
+}
+
+main{
+    margin-bottom: 180px;
 }
 .up__section {
     background: url(../images/cover.jpg);
@@ -123,15 +128,15 @@
 span {
     letter-spacing: 0;
 }
-.word_spacing_1 {
+.wrapper__mainword_span_together {
     letter-spacing: 30px;
     text-transform: uppercase;
 }
-.word_spacing_2 {
+.wrapper__mainword_span_alone {
     letter-spacing: 60px;
     text-transform: uppercase;
 }
-.word_spacing_none {
+.wrapper__mainword_span_none {
     text-transform: uppercase;
     word-spacing: 0px;
 }
@@ -220,7 +225,7 @@ span {
     z-index: 0;
 }
 
-.card_h3 {
+.card_header {
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
@@ -263,7 +268,7 @@ span {
 }
 
 .about {
-    margin: 183px 0px 0px 74px;
+    margin: 183px 0px 181px 74px;
 }
 
 .about img {
@@ -290,7 +295,6 @@ span {
 }
 .about__p {
     width: 693px;
-    min-height: 449px;
     margin: 100px 0px 0px 292px;
 }
 .about p {
@@ -301,19 +305,7 @@ span {
   word-spacing: 1px;
 }
 
-footer {
-    margin-top: 44px;
-}
-
-.footer__adress {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 135%;
-        letter-spacing: 0;
-        color: #000;
-        max-width: 290px;
-        
+.footer__adress {        
         margin: 0px 0px 0px 53px;
 }
 .address__number {

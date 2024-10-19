@@ -13,7 +13,7 @@
     <header class="header">
       <nav class="header__nav">
         <ul class="header__ul">
-          <li class="header__item activ__link">
+          <li class="header__item list_type__none">
             <!-- Не считаю, что необходимо называть класс header__link, так как класс используется в нескольких местах кода и называеть его header__link просто нецелесообразно. -->
             <a class="link activ__link">главная</a>
           </li>
@@ -28,7 +28,7 @@
       <a class="header__logo">
         <img src="./images/logo-black.svg" alt="Оно тебе надо" class="header__logo__img" />
       </a>
-      <address class="address">
+      <address class="address adress_header">
         <a href="tel:+99995555555" class="address__letter-spacing">+9 999 555 5555</a><br>
         <a href="mailto:info@sobaka.ge" class="address__letter-spacing">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-<br>265, Амстердам</p>
@@ -36,13 +36,13 @@
     </header>
     <main class="main">
       <section class="up__section overlay">
-        <section class="main_word">
+        <div class="main_word">
           <h1>
-          <span class="left_word"><span class="word_spacing_1">о</span><span class="word_spacing_2">но</span></span>
-          <span class="center_word"><span class="word_spacing_1">те</span><span class="word_spacing_2">бе</span></span>
-          <span class="right_word"><span class="word_spacing_2">н</span><span class="word_spacing_1">ад</span><span class="word_spacing_none">о</span></span>
-        </h1>
-        </section>
+          <span class="left_word"><span class="wrapper__mainword_span_together">о</span><span class="wrapper__mainword_span_alone">но</span></span>
+          <span class="center_word"><span class="wrapper__mainword_span_together">те</span><span class="wrapper__mainword_span_alone">бе</span></span>
+          <span class="right_word"><span class="wrapper__mainword_span_alone">н</span><span class="wrapper__mainword_span_together">ад</span><span class="wrapper__mainword_span_none">о</span></span>
+          </h1>
+        </div>
         <div class="description">
         <p class="cover__description-text">
           аукцион
@@ -67,7 +67,7 @@
           <li class="lots__li">
             <a href="#" class="card__link">
               <article class="card card__thomas overlay">
-                <h3 class="card_h3">
+                <h3 class="card_header">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
                 <p class="card__description">
@@ -81,7 +81,7 @@
         <li class="lots__li">
           <a href="#" class="card__link">
             <article class="card card__james overlay">
-              <h3 class="card_h3">
+              <h3 class="card_header">
                 Книга, где описан один скучный день из жизни рекламного агента
               </h3>
               <p class="card__description">
@@ -98,7 +98,7 @@
         <li class="lots__li">
           <a href="#" class="card__link">
             <article class="card card__kandinsky overlay">
-              <h3 class="card_h3">
+              <h3 class="card_header">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </h3>
               <p class="card__description">
@@ -132,7 +132,7 @@
       </section>
   </main>
     <footer class="footer">
-      <address class="footer__adress">
+      <address class="address footer__adress">
         <a href="tel:+99995555555" class="address__number">
           +9 999 555 5555
         </a>
